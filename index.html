@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WIFAQ Prototype</title>
+  <meta name="description" content="WIFAQ clickable prototype: one hospital-controlled coordination layer for pharmaceutical patient-support programs. Demo data only.">
+  <link rel="icon" href="assets/wifaq-mark.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/wifaq-mark.png" alt="" class="brand-mark">
+      <span class="brand-name">WIFAQ</span>
+      <span class="brand-ar" lang="ar">وفاق</span>
+    </div>
+    <nav class="roles" role="tablist" aria-label="Choose a workspace">
+      <button role="tab" data-role="ops" class="role-btn">WIFAQ Operations</button>
+      <button role="tab" data-role="hospital" class="role-btn">Hospital Portal</button>
+      <button role="tab" data-role="sponsor" class="role-btn">Sponsor Portal</button>
+    </nav>
+    <div class="top-right">
+      <span class="demo-badge" title="All names and figures are fictional">Demo data</span>
+      <button class="ghost-btn" id="resetBtn" title="Restore the original demo data">Reset demo</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"></aside>
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+
+  <div class="modal-backdrop" id="modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div id="modalBody"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
