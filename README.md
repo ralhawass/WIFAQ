@@ -81,6 +81,7 @@ wifaq-mark.png logo mark
 | ![Hospital programs](03-hospital-programs.png) | ![Report approval](04-hospital-approval.png) |
 | ![Audit log](05-hospital-audit.png) | ![Sponsor overview](06-sponsor-overview.png) |
 
+
 ## Team
 
 - **Reema Alhawas**, CEO: partnerships and strategy
