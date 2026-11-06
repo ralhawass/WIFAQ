@@ -12,7 +12,9 @@ This repository holds the **MVP prototype**: a clickable front end of the three 
 
 ## Try it
 
-**Online:** open the GitHub Pages link in the repository's "About" section (see *Publishing* below).
+**Live demo:** https://ralhawass.github.io/WIFAQ/
+
+**Repository:** https://github.com/ralhawass/WIFAQ
 
 **Locally:** download or clone the repository and open `index.html` in any modern browser. No installation or build step is needed.
 
@@ -67,24 +69,17 @@ index.html     page shell and role switcher
 styles.css     styling (responsive)
 app.js         views, actions and shared state
 data.js        fictional seed data
-assets/        logo mark
-screenshots/   images of each workspace
+wifaq-mark.png logo mark
+0X-*.png       screenshots of each workspace
 ```
-
-## Publishing on GitHub Pages
-
-1. Repository **Settings → Pages**.
-2. *Source:* **Deploy from a branch** · *Branch:* `main` · *Folder:* `/ (root)` → **Save**.
-3. After about a minute the site is live at `https://<your-username>.github.io/<repository-name>/`.
-4. Add that link to the repository's **About** section and to the MEDATHON submission.
 
 ## Screenshots
 
 | | |
 |---|---|
-| ![Operations overview](screenshots/01-operations-overview.png) | ![Case view](screenshots/02-operations-case.png) |
-| ![Hospital programs](screenshots/03-hospital-programs.png) | ![Report approval](screenshots/04-hospital-approval.png) |
-| ![Audit log](screenshots/05-hospital-audit.png) | ![Sponsor overview](screenshots/06-sponsor-overview.png) |
+| ![Operations overview](01-operations-overview.png) | ![Case view](02-operations-case.png) |
+| ![Hospital programs](03-hospital-programs.png) | ![Report approval](04-hospital-approval.png) |
+| ![Audit log](05-hospital-audit.png) | ![Sponsor overview](06-sponsor-overview.png) |
 
 ## Team
 
